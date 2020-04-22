@@ -1,2 +1,6 @@
 # i18n
 springboot i18n国际化
+
+## AcceptHeaderLocaleResolver
+Spring采用的默认区域解析器是AcceptHeaderLocaleResolver。它通过检验HTTP请求的accept-language头部来解析区域。这个头部是由用户的web浏览器根据底层操作系统的区域设置进行设定。请注意，这个区域解析器无法改变用户的区域，因为它无法修改用户操作系统的区域设置。
+
